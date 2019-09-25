@@ -1,9 +1,5 @@
 $(document).ready(function() {
   "use strict"
-    $('.slider').ripples({
-      dropRadius: 13,
-      perturbance: 0.01,
-    });
 
     var typed = new Typed(".text", {
     strings: ["<strong>I Love</strong><strong class='primary'> Coding<strong>", "<strong>I love</strong><strong class='primary'> React<strong>", "<strong>Front End</strong><strong class='primary'> Developer<strong>"],
